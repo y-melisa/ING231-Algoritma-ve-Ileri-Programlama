@@ -1,0 +1,4 @@
+for sayı in range(100,1000):
+    sayı=str(sayı)
+    if sayı[0]==sayı[-1]:
+        print(sayı)
