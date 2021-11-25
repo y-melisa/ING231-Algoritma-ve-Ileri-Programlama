@@ -1,1 +1,24 @@
+#1.SORU
 
+#Tek Alfabeli yerine yerleştirme algoritası
+#orijinal metindeki her bir harfi random başka bir harf ile değiştirir.
+#Random import edilmeli
+
+def sifreleme(metin):
+    #orijinal metni şifreleyen bir fonksiyon oluşturulur.
+    import random
+    sifre = " "
+    #sifre adlı boş str oluşturulur. Orijinal metindeki eleman sayısı kadar
+    #dönen for döngüsü her bir turde bu boş str'e bir ranodom ekler.
+    alfabe = "abcçdefgğhıijklmnoöprsştuüvyz"
+    #alfabe'den random olarak harf seçilecek.
+    for harf in metin:
+        harf = random.choice(alfabe)
+        sifre += harf
+    print(sifre)
+
+
+#kullanıcıdan orijinal metin istenir:
+orijinal_metin = input("Orijinal metni boşluksuz ve noktalama işaretleri olmadam giriniz: ")
+
+sifreleme(orijinal_metin)
