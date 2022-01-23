@@ -4,7 +4,7 @@ def random_tut():
     a=random.randint(1000,10000)
     a=str(a)
     if a[0]!=a[1] and a[0]!=a[2] and a[0]!=a[3] and a[1]!=a[2] and a[1]!=a[3] and a[2]!=a[3]:
-        print(a)
+      
         return girilen_sayı()
     else:
         return random_tut()
