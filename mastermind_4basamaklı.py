@@ -29,7 +29,7 @@ def girilen_sayı():
                         yanlış_yer = yanlış_yer - 1
                     else:
                         continue
-            print("Doğru yer sayacı: ",doğru_yer,"Yanlış yer sayacı: ",yanlış_yer)
+            print("Doğru yer sayacı: ",doğru_yer,". Yanlış yer sayacı: ",yanlış_yer)
             
             return girilen_sayı()
         
