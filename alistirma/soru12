@@ -1,4 +1,0 @@
-for yıl in range(1000,2005):
-	yıl=str(yıl)
-	if yıl[0]+yıl[1]+yıl[2]+yıl[3]==str(2005-int(yıl)):
-		print(yıl)

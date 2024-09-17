@@ -1,4 +1,0 @@
-for sayı in range(1000,10000):
-	sayı=str(sayı)
-	if sayı[0]==sayı[-1] and sayı[1]==sayı[-2]:
-		print(sayı)
